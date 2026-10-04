@@ -1,0 +1,19 @@
+Package: com.withersmais.apprenamer.armv7
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: withersmais
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, applist, firmware (>= 5.0), firmware (<< 7.0)
+Conflicts: com.withersmais.apprenamer.armv6, com.withersmais.apprenamer
+Replaces: com.withersmais.apprenamer.armv6, com.withersmais.apprenamer
+Filename: debs/com.withersmais.apprenamer.armv7_1.0.0_iphoneos-arm.deb
+Size: 25190
+MD5sum: 286f8dc8d969c0ee83bff41578f683b5
+SHA1: 4465e42e5d709b56acc9cb1440b588c61254d886
+SHA256: fb5f0ad2c838e8814d034e3512757aed9bc3086deb9e3860142d2676d134f62b
+Section: Tweaks
+Description: Rename any app on the SpringBoard from Settings (armv7 build)
+Author: withersmais
+Icon: file:///Library/PreferenceBundles/AppRenamerPrefs.bundle/icon@2x.png
+Name: AppRenamer (armv7)
+
