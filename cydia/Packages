@@ -1,20 +1,21 @@
-Package: bag.skyglow.bluetweety
-Version: 1.0
+Package: com.withersmais.apprenamer.armv6
+Version: 1.0.0
 Architecture: iphoneos-arm
-Maintainer: Requis, bag.xml
-Installed-Size: 948
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/bag.skyglow.bluetweety_1.0_iphoneos-arm.deb
-Size: 111010
-MD5sum: f32c4f1b3f728762ccb997ef62e4656e
-SHA1: 24d850223ca9966304324344d5c33164bc237c1e
-SHA256: baadc0ab0c67762ee605068e111e87776dffa05ea6e8209315b0d7a4fd3faa72
+Maintainer: withersmais
+Installed-Size: 112
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, applist, firmware (>= 5.0), firmware (<< 7.0)
+Conflicts: com.withersmais.apprenamer.armv7, com.withersmais.apprenamer
+Replaces: com.withersmais.apprenamer.armv7, com.withersmais.apprenamer
+Filename: debs/com.withersmais.apprenamer.armv6_1.0.0_iphoneos-arm.deb
+Size: 26016
+MD5sum: 6985915a45d717444ca887da167d36cb
+SHA1: a910599f005ece80b529554129f7b163bfb4181a
+SHA256: ac3dee307e3972b66e03312e6244d0b19a862ac64712778d25dfd07b79809811
 Section: Tweaks
-Description: Fix the iOS integration with Twitter across the system, as well as the Twitter app.
-Author: Requis, bag.xml
-Depiction: http://cydia.skyglow.es/depictions/bag.skyglow.bluetweety/depictions/index.html
-Icon: file:///Library/Application%20Support/bag.skyglow.bluetweety/BlueTweety-Icon.png
-Name: BlueTweety
+Description: Rename any app on the SpringBoard from Settings (armv6 build)
+Author: withersmais
+Icon: file:///Library/PreferenceBundles/AppRenamerPrefs.bundle/icon@2x.png
+Name: AppRenamer (armv6)
 
 Package: com.withersmais.apprenamer.armv7
 Version: 1.0.0
@@ -34,4 +35,21 @@ Description: Rename any app on the SpringBoard from Settings (armv7 build)
 Author: withersmais
 Icon: file:///Library/PreferenceBundles/AppRenamerPrefs.bundle/icon@2x.png
 Name: AppRenamer (armv7)
+
+Package: com.withersmais.realytfix
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: withersmais
+Installed-Size: 276
+Depends: mobilesubstrate (>= 0.9.3000), preferenceloader, firmware (>= 5.0)
+Filename: debs/com.withersmais.realytfix_1.0.2_iphoneos-arm.deb
+Size: 29946
+MD5sum: 82bda28878c22932d205d9faf1c4c86d
+SHA1: 20b1be65bdf02066ef18f9b79881291ec1a1a023
+SHA256: 4f6afbb49a75c8de270076844732def1f5304f786eb67541bad26bea9dc7939b
+Section: Tweaks
+Description: Fixes the stock YouTube app of iOS 5 by sending it to your own proxy (armv6 + armv7)
+Author: withersmais
+Icon: file:///Library/PreferenceBundles/RealYTFixPrefs.bundle/icon@2x.png
+Name: RealYTFix
 
