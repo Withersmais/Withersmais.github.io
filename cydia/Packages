@@ -37,16 +37,16 @@ Icon: file:///Library/PreferenceBundles/AppRenamerPrefs.bundle/icon@2x.png
 Name: AppRenamer (armv7)
 
 Package: com.withersmais.realytfix
-Version: 1.0.9
+Version: 1.0.10
 Architecture: iphoneos-arm
 Maintainer: withersmais
 Installed-Size: 156
 Depends: mobilesubstrate (>= 0.9.3000), firmware (>= 5.0)
-Filename: debs/com.withersmais.realytfix_1.0.9_iphoneos-arm.deb
-Size: 34794
-MD5sum: 43fa083662c4b679a7944f33dc31717f
-SHA1: d25bce33f6cdbe46a308f44700a0d8649e9a13ba
-SHA256: 5f076d4b64e80f3e9dc2bf9737472fee2b796d4bdc33f41ceda16e21b91836da
+Filename: debs/com.withersmais.realytfix_1.0.10_iphoneos-arm.deb
+Size: 36074
+MD5sum: a056f790d2936b2848c7c86d5c8a91ce
+SHA1: 999bd8895b657b34f02c0d26b9c9c17595e96dd6
+SHA256: e95806fd67b44e0d7e736d1ac41f44f09dfa64f241fe6df4c0be7e0e630fa21e
 Section: Tweaks
 Description: Fixes the stock YouTube app of iOS 5 by sending it to your own proxy (armv6 + armv7)
 Author: withersmais
