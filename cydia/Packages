@@ -1,3 +1,19 @@
+Package: com.george.ipadscreen
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: George
+Installed-Size: 476
+Depends: firmware (>= 6.0)
+Filename: debs/iPadScreen-1.0.2-iOS.deb
+Size: 262814
+MD5sum: 938634539846828649635014f4df426c
+SHA1: 9fa4e020d30fec9d4495e1c36e6223cc591b6694
+SHA256: 3af4909dee3a59ba96506a5d29373802406783ed08590e36c1a5874b7ffb27fc
+Section: Utilities
+Description: Mirrors a Mac display to the iPad. Native client for the raw JPEG stream.
+Author: George
+Name: iPadScreen
+
 Package: com.withersmais.apprenamer.armv6
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -35,21 +51,4 @@ Description: Rename any app on the SpringBoard from Settings (armv7 build)
 Author: withersmais
 Icon: file:///Library/PreferenceBundles/AppRenamerPrefs.bundle/icon@2x.png
 Name: AppRenamer (armv7)
-
-Package: com.withersmais.realytfix
-Version: 1.0.11
-Architecture: iphoneos-arm
-Maintainer: withersmais
-Installed-Size: 156
-Depends: mobilesubstrate (>= 0.9.3000), firmware (>= 5.0)
-Filename: debs/com.withersmais.realytfix_1.0.11_iphoneos-arm.deb
-Size: 36868
-MD5sum: 65c1bd5ecab5f24aaa371cb0d83d41ac
-SHA1: 41ac7aa0da05765f5c0fde2491679305a074f887
-SHA256: dcc76099aeef5421041e558c1e9cd8248ce367d9511a2d4d78376763413eefe2
-Section: Tweaks
-Description: Fixes the stock YouTube app of iOS 5 by sending it to your own proxy (armv6 + armv7)
-Author: withersmais
-Icon: file:///Library/RealYTFix/Icon@2x.png
-Name: RealYTFix
 
